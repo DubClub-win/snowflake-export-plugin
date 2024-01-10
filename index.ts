@@ -213,7 +213,7 @@ class Snowflake {
                 resolve()
             })
         })
-        await this.appendToFilesList(storage, fileName)
+        // await this.appendToFilesList(storage, fileName)
     }
 
     async uploadToGcs(events: TableRow[], { global, storage }: SnowflakePluginInput) {
@@ -245,7 +245,7 @@ class Snowflake {
                     resolve(true)
                 })
         })
-        await this.appendToFilesList(storage, fileName)
+        // await this.appendToFilesList(storage, fileName)
     }
 }
 
